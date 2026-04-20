@@ -1,0 +1,39 @@
+{
+  "model_name": "taxi-tip-regressor",
+  "model_version": "local-1",
+  "best_model": "Random Forest Regressor",
+  "feature_names": [
+    "passenger_count",
+    "trip_distance",
+    "fare_amount",
+    "pickup_hour",
+    "pickup_day_of_week",
+    "is_weekend",
+    "trip_duration_minutes",
+    "trip_speed_mph",
+    "log_trip_distance",
+    "fare_per_mile",
+    "fare_per_minute",
+    "pickup_borough",
+    "dropoff_borough"
+  ],
+  "training_metrics": {
+    "MAE": 1.2011017578734096,
+    "RMSE": 2.3777467127355467,
+    "R2": 0.6220175291348755
+  },
+  "comparison": [
+    {
+      "model_name": "Linear Regression",
+      "MAE": 1.281707868249787,
+      "RMSE": 2.5002979290144207,
+      "R2": 0.5820503151141819
+    },
+    {
+      "model_name": "Random Forest Regressor",
+      "MAE": 1.2011017578734096,
+      "RMSE": 2.3777467127355467,
+      "R2": 0.6220175291348755
+    }
+  ]
+}
